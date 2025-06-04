@@ -98,6 +98,38 @@ namespace PythagoreanCalculator
             // Perform calculation
             double c = Math.Sqrt(a * a + b * b);
             lblResult.Text = "Hypotenuse (C) = " + c.ToString("F2");
+
+            string result = "A = " + a + ", B = " + b + ", C = " + c;
+
+
+            // Add to history
+            history.Add(result);
+        }
+
+
+        private List<string> history = new List<string>();
+
+        private void btnHistory_Click(object sender, EventArgs e)
+        {
+            lstHistory.Items.Clear();
+
+            if (history.Count == 0)
+            {
+                MessageBox.Show("No calculation history available.", "History", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            foreach (string item in history)
+            {
+                lstHistory.Items.Add(item);
+            }
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtA.Clear();
+            txtB.Clear();
+            lblResult.Text = "";
         }
     }
 }
