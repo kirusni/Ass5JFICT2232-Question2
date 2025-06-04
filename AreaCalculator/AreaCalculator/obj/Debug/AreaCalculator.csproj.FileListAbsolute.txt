@@ -1,0 +1,9 @@
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\bin\Debug\AreaCalculator.exe.config
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\bin\Debug\AreaCalculator.exe
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\bin\Debug\AreaCalculator.pdb
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\obj\Debug\AreaCalculator.csprojResolveAssemblyReference.cache
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\obj\Debug\AreaCalculator.Form1.resources
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\obj\Debug\AreaCalculator.Properties.Resources.resources
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\obj\Debug\AreaCalculator.csproj.GenerateResource.Cache
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\obj\Debug\AreaCalculator.exe
+E:\UCJ\2025\Exams\SCM Assessment 5\AreaCalculator\AreaCalculator\obj\Debug\AreaCalculator.pdb

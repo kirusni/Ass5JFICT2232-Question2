@@ -1,0 +1,29 @@
+ private void button1_Click(object sender, EventArgs e)
+        {
+            double a, b;
+
+            // Check if inputs are empty
+            if (string.IsNullOrWhiteSpace(txtA.Text) || string.IsNullOrWhiteSpace(txtB.Text))
+            {
+                MessageBox.Show("Please enter values for both A and B.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Check if inputs are valid numbers
+            if (!double.TryParse(txtA.Text, out a) || !double.TryParse(txtB.Text, out b))
+            {
+                MessageBox.Show("Only numeric values are allowed.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Check for negative or zero values
+            if (a <= 0 || b <= 0)
+            {
+                MessageBox.Show("Please enter positive values greater than zero.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Perform calculation
+            double c = Math.Sqrt(a * a + b * b);
+            lblResult.Text = "Hypotenuse (C) = " + c.ToString("F2");
+        }
